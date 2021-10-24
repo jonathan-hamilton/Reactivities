@@ -1,6 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <PackageReference Include="CloudinaryDotNet" Version="1.15.2" />
+    <PackageReference Include="System.Data.SQLite" Version="1.0.115" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Application\Application.csproj" />
   </ItemGroup>
 
